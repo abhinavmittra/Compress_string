@@ -16,9 +16,10 @@ string compress(string text)
         break;
      }
      ct+=text[i]+to_string(count);
-     i=i+count-1;
+     i=i+count;
    }
-   return ct;
+   return ct
+       
 }
 
 int main()
