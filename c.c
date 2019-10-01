@@ -6,10 +6,10 @@ string compress(string text)
 {
     string ct="";
     int i,j,count=0;
-    
-    for(i=0;i<strlen(text);i++)
+    int n = strlen(text0
+    for(i=0;i<n;i++)
    { count=1;
-      for(j=i+1;j<strlen(text);j++)
+      for(j=i+1;j<n;j++)
      {
         if(text[i]==text[j])
         count++;
